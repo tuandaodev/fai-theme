@@ -35,7 +35,6 @@
   <div class="${properties.kcLoginClass!}">
     <div id="kc-header" class="${properties.kcHeaderClass!}">
 		<div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}">
-			${kcSanitize(msg("loginTitleHtml",(realm.displayNameHtml!'')))?no_esc}
 			<img class="logo" src="${url.resourcesPath}/img/logo.png">
 		</div>
     </div>
